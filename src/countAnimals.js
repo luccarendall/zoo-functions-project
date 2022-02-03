@@ -10,7 +10,7 @@ function countAnimals(animal) {
   }
 
   const searchAnimal = data.species.find((element) =>
-  element.name === animal.specie);
+    element.name === animal.specie);
 
   if (animal.sex === undefined) {
     return searchAnimal.residents.length;
