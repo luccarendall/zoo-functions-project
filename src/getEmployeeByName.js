@@ -1,11 +1,13 @@
 const data = require('../data/zoo_data');
+const { employees } = require('../data/zoo_data');
 
-function getEmployeeByName(employeeName) {
-  // Esta função é responsável pela busca das pessoas colaboradoras através do primeiro ou do último nome dela
+function getEmployeeByName(employeeName) { // resolução parecida com o requisito 1. Usando find no lugar do filter.
+  if (employeeName === undefined) {
+    return {};
+  }
 
-  // Sem parâmetros, retorna um objeto vazio
-  // Quando provido o primeiro nome do funcionário, retorna o objeto do funcionário
-  // Quando provido o último nome do funcionário, retorna o objeto do funcionário
+  return employees
+    .find((worker) => worker.firstName === employeeName || worker.lastName === employeeName);
 }
 
 module.exports = getEmployeeByName;
