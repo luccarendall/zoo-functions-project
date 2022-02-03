@@ -9,7 +9,13 @@ function countEntrants(entrants) {
 }
 
 function calculateEntry(entrants) {
-  // seu código aqui
+  if (entrants === undefined || Object.keys(entrants).length === 0) {
+    return 0;
+  }
+  const visitors = countEntrants(entrants);
+  return ((visitors.child * data.prices.child)
+    + (visitors.adult * data.prices.adult)
+      + (visitors.senior * data.prices.senior));
 }
 
 module.exports = { calculateEntry, countEntrants };
