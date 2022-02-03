@@ -22,3 +22,4 @@ function countAnimals(animal) {
 }
 
 module.exports = countAnimals;
+// Referências: https://abre.ai/dTqu

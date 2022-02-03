@@ -19,3 +19,4 @@ function calculateEntry(entrants) {
 }
 
 module.exports = { calculateEntry, countEntrants };
+// Referência: https://abre.ai/dTqs

@@ -11,3 +11,4 @@ function getOldestFromFirstSpecies(id) {
 }
 
 module.exports = getOldestFromFirstSpecies;
+// Referência: https://abre.ai/dTqP

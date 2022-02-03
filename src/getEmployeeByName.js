@@ -11,3 +11,4 @@ function getEmployeeByName(employeeName) { // resolução parecida com o requisi
 }
 
 module.exports = getEmployeeByName;
+// Referência: https://abre.ai/dTqI

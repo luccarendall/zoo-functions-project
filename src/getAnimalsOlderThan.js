@@ -6,3 +6,4 @@ function getAnimalsOlderThan(animal, age) {
 }
 
 module.exports = getAnimalsOlderThan;
+// Referência: https://abre.ai/dTqN

@@ -13,3 +13,4 @@ function getRelatedEmployees(managerId) {
 }
 
 module.exports = { isManager, getRelatedEmployees };
+// Referências: https://abre.ai/dTqm e https://abre.ai/dTqp

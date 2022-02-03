@@ -11,3 +11,4 @@ function getSpeciesByIds(...ids) { // ... -> sintaxe de espalhamento (spread)
 }
 
 module.exports = getSpeciesByIds;
+// Referências: https://abre.ai/dTqy, https://abre.ai/dTqx, https://abre.ai/dTqW, https://abre.ai/dTqY
