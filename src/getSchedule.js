@@ -1,13 +1,13 @@
 const data = require('../data/zoo_data');
 const { species, hours } = require('../data/zoo_data');
 
-const weekOpen = ['Segunda', 'Terca', 'Quarta', 'Quinta', 'Sexta', 'Sabado', 'Domingo'];
+const weekOpen = ['Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Monday'];
 
 // Status dos horários e dias disponíveis:
 function weeklySchedule() {
   const zooStatus = {};
   weekOpen.forEach((day) => {
-    if (day === 'Domingo') {
+    if (day === 'Monday') {
       zooStatus[day] = {
         officeHour: 'CLOSED',
         exhibition: 'The zoo will be closed!',
